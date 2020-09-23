@@ -1,11 +1,15 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <h1>Simple carousel</h1>
+    <simple-carousel />
+  </div>
 </template>
 
 <script>
+  import SimpleCarousel from "@/components/SimpleCarousel";
   export default {
     name: "App",
-    components: {}
+    components: { SimpleCarousel }
   };
 </script>
 
@@ -14,8 +18,8 @@
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
     color: #2c3e50;
+    text-align: center;
     margin-top: 60px;
   }
 </style>
